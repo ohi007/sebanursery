@@ -1,0 +1,34 @@
+.logo:hover {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.banner {
+  background-image: url(https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-bg {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+figure {
+  overflow: hidden;
+}
+
+img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+/*# sourceMappingURL=style.css.map */
