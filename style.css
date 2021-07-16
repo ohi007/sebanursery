@@ -3,50 +3,32 @@
           transform: none;
 }
 
-.banner{
-  background-image: url(https://images.pexels.com/photos/5638840/pexels-photo-5638840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+.banner {
+  background-image: url(https://images.pexels.com/photos/1055408/pexels-photo-1055408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 100vh;
+  width: 100%;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 800px;
 }
 
 .banner-bg {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100%;
-  position: relative;
-}
-.banner-text{
-  position: absolute;
-  top: 30%;
-  left: 50%; 
-  -webkit-transform: translate(-50%,50%);
-  -moz-transform: translate(-50%,50%);
-  -ms-transform: translate(-50%,50%);
-  -o-transform: translate(-50%,50%);
-  transform: translate(-50%,50%);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 figure {
   overflow: hidden;
 }
 
-.zoom-image{
+img {
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
-.zoom-image:hover {
+img:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
-}
-@media only screen and (max-width: 690px) {
-  .banner-text {
-    position: absolute;
-    top: 10%;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
